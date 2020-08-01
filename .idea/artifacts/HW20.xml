@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HW20">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW20_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HW20/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HW20" />
+          <element id="library" level="project" name="apache-tomcat-9.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../java librarys/com.mysql.jdbc.Driver.jar" />
+          <element id="library" level="application" name="tomcat-jdbc" />
+          <element id="library" level="project" name="hibernate-2.7.7" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

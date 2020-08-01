@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>serv1</servlet-name>
+        <servlet-class>service.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serv1</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>serv2</servlet-name>
+        <servlet-class>service.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serv2</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>serv3</servlet-name>
+        <servlet-class>service.LibraryManagement</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serv3</servlet-name>
+        <url-pattern>/LibraryManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>serv4</servlet-name>
+        <servlet-class>service.LogOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>serv4</servlet-name>
+        <url-pattern>/LogOut</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>users</param-name>
+        <param-value>users</param-value>
+    </context-param>
+
+</web-app>

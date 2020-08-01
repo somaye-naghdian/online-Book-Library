@@ -1,0 +1,50 @@
+02-Jul-2020 12:10:01.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.36
+02-Jul-2020 12:10:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 3 2020 17:07:09 UTC
+02-Jul-2020 12:10:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.36.0
+02-Jul-2020 12:10:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+02-Jul-2020 12:10:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+02-Jul-2020 12:10:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jul-2020 12:10:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_40\jre
+02-Jul-2020 12:10:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_40-ea-b02
+02-Jul-2020 12:10:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jul-2020 12:10:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\java\Applications\apache-tomcat-9.0.36
+02-Jul-2020 12:10:01.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\java\Applications\apache-tomcat-9.0.36
+02-Jul-2020 12:10:01.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/java/Applications/apache-tomcat-9.0.36/conf/logging.properties
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/java/Applications/apache-tomcat-9.0.36
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/java/Applications/apache-tomcat-9.0.36
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/java/Applications/apache-tomcat-9.0.36/temp
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+02-Jul-2020 12:10:01.464 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02-Jul-2020 12:10:01.465 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02-Jul-2020 12:10:01.472 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+02-Jul-2020 12:10:01.969 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jul-2020 12:10:02.009 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [763] milliseconds
+02-Jul-2020 12:10:02.036 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jul-2020 12:10:02.036 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.36]
+02-Jul-2020 12:10:02.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\a]
+02-Jul-2020 12:10:02.532 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [191] milliseconds.
+02-Jul-2020 12:10:02.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\a] has finished in [503] ms
+02-Jul-2020 12:10:02.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\docs]
+02-Jul-2020 12:10:02.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\docs] has finished in [82] ms
+02-Jul-2020 12:10:02.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\examples]
+02-Jul-2020 12:10:03.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\examples] has finished in [857] ms
+02-Jul-2020 12:10:03.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\host-manager]
+02-Jul-2020 12:10:03.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\host-manager] has finished in [45] ms
+02-Jul-2020 12:10:03.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\manager]
+02-Jul-2020 12:10:03.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\manager] has finished in [26] ms
+02-Jul-2020 12:10:03.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\ROOT]
+02-Jul-2020 12:10:03.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\java\Applications\apache-tomcat-9.0.36\webapps\ROOT] has finished in [26] ms
+02-Jul-2020 12:10:03.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jul-2020 12:10:03.602 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,592] milliseconds
+02-Jul-2020 13:17:45.767 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jul-2020 13:18:37.913 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jul-2020 13:18:55.719 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jul-2020 13:19:25.042 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jul-2020 13:19:40.475 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jul-2020 13:20:30.292 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jul-2020 13:21:44.551 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
